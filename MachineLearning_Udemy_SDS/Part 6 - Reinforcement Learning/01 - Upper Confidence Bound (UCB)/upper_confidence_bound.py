@@ -10,7 +10,7 @@ dataset = pd.read_csv('Ads_CTR_Optimisation.csv')
 
 # Implementing UCB
 import math
-N = 10000
+N = 12
 d = 10
 ads_selected = []
 numbers_of_selections = [0] * d
